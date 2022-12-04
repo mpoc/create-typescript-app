@@ -1,1 +1,5 @@
-# node-typescript-boilerplate
+# NodeJS TypeScript project boilerplate
+
+```
+npx degit --force mpoc/node-typescript-boilerplate
+```
