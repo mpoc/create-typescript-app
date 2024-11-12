@@ -12,10 +12,8 @@
     "build": "tsc",
     "prepack": "npm run build",
     "watch": "tsx watch src",
-    "start": "tsx src"
-  },
-  "dependencies": {
-    "source-map-support": "^0.5.21"
+    "dev": "tsx src",
+    "start": "node --enable-source-maps dist"
   },
   "devDependencies": {
     "@tsconfig/node-lts": "^22.0.0",
