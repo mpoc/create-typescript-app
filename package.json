@@ -11,6 +11,7 @@
   "scripts": {
     "build": "tsc",
     "prepack": "npm run build",
+    "watch": "tsx watch src",
     "start": "tsx src"
   },
   "dependencies": {
